@@ -7,8 +7,10 @@ spring:
   cloud:
     config:
       server:
+        encrypt:
+          enabled: false
         git:
-          uri: https://github.com/CarlosLaurine/Config-Server-Cross-Cutting-Concern-Service-for-E-LearningPlatform-With-Microsevices-Architecture
+          uri: https://github.com/CarlosLaurine/Property-Files-Repo-for-Config-Server-E-LearningPlatform-With-Microsevices-Architecture
           default-label: main
 
 eureka:

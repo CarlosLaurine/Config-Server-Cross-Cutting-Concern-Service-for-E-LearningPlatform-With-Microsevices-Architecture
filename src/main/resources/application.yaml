@@ -17,6 +17,10 @@ ead:
   service-registry:
     username: serviceregistryclient
     password: 'secretead123sr'
+  config-server:
+    username: configServerClient
+    password: 'secretead123cs'
+
 
 eureka:
   client:
